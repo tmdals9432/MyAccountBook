@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_main"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="10dp">
+
+    <!-- 주차 기간 -->
+    <TextView
+        android:id="@+id/tvWeekPeriod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:text="8. 1. ~ 8. 4."
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <!-- 주차 수입 -->
+    <TextView
+        android:id="@+id/tvWeekIncome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="0"
+        android:textColor="@color/accent_blue"
+        android:textSize="12sp" />
+
+    <!-- 주차 지출 -->
+    <TextView
+        android:id="@+id/tvWeekExpense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="0"
+        android:textColor="@color/accent_red"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

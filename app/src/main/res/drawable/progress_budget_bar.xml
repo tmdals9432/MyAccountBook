@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 배경 (연한 회색) -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="4dp" />
+            <solid android:color="#1A8E8E93" />
+        </shape>
+    </item>
+    <!-- 채워지는 바 (파란색 기본, 코드로 파랑/빨강 동적 틴트) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="4dp" />
+                <solid android:color="#38B6FF" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
